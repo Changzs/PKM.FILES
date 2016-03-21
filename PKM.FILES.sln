@@ -8,8 +8,23 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ref", "ref", "{E23E8258-77BF-4EA4-903B-E15DDD3DCF4A}"
 	ProjectSection(SolutionItems) = preProject
 		ref\DMSkin.dll = ref\DMSkin.dll
+		ref\HtmlAgilityPack.dll = ref\HtmlAgilityPack.dll
+		ref\HtmlAgilityPack.pdb = ref\HtmlAgilityPack.pdb
+		ref\HtmlAgilityPack.xml = ref\HtmlAgilityPack.xml
+		ref\HttpServer.dll = ref\HttpServer.dll
+		ref\NetSpell.SpellChecker.dll = ref\NetSpell.SpellChecker.dll
+		ref\SgmlReaderDll.dll = ref\SgmlReaderDll.dll
 		ref\System.Data.SQLite.dll = ref\System.Data.SQLite.dll
+		ref\System.Data.SQLite.dll.config = ref\System.Data.SQLite.dll.config
+		ref\System.Data.SQLite.EF6.dll = ref\System.Data.SQLite.EF6.dll
+		ref\System.Data.SQLite.EF6.xml = ref\System.Data.SQLite.EF6.xml
+		ref\System.Data.SQLite.Linq.dll = ref\System.Data.SQLite.Linq.dll
+		ref\System.Data.SQLite.Linq.xml = ref\System.Data.SQLite.Linq.xml
+		ref\System.Data.SQLite.xml = ref\System.Data.SQLite.xml
 		ref\WinHtmlEditor.dll = ref\WinHtmlEditor.dll
+		ref\ZetaHtmlEditControl.dll = ref\ZetaHtmlEditControl.dll
+		ref\ZetaHtmlEditControl.dll.config = ref\ZetaHtmlEditControl.dll.config
+		ref\ZetaHtmlEditControl.pdb = ref\ZetaHtmlEditControl.pdb
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PKM.EntityFramework", "PKM.EntityFramework\PKM.EntityFramework.csproj", "{69D792D8-7908-464B-B66F-5ECDAD502ACE}"

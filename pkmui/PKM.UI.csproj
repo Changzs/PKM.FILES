@@ -68,15 +68,11 @@
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
-    <Reference Include="Telerik.WinControls, Version=2016.1.216.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e" />
-    <Reference Include="Telerik.WinControls.RichTextEditor, Version=2016.1.216.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
-    <Reference Include="Telerik.WinControls.UI, Version=2016.1.216.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e" />
-    <Reference Include="TelerikCommon, Version=2016.1.216.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e" />
     <Reference Include="WinHtmlEditor">
       <HintPath>..\ref\WinHtmlEditor.dll</HintPath>
     </Reference>
     <Reference Include="ZetaHtmlEditControl">
-      <HintPath>..\..\Downloads\ZetaHtmlEditControl\Test\bin\x86\Release\ZetaHtmlEditControl.dll</HintPath>
+      <HintPath>..\..\..\Project\ref\ZetaHtmlEditControl.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -124,7 +120,6 @@
     <EmbeddedResource Include="NoteEdit.resx">
       <DependentUpon>NoteEdit.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
