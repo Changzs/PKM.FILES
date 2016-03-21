@@ -68,12 +68,6 @@
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
-    <Reference Include="WinHtmlEditor">
-      <HintPath>..\ref\WinHtmlEditor.dll</HintPath>
-    </Reference>
-    <Reference Include="ZetaHtmlEditControl">
-      <HintPath>..\..\..\Project\ref\ZetaHtmlEditControl.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DocImpFrm.cs">

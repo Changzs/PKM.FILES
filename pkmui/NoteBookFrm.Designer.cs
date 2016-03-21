@@ -31,7 +31,6 @@
             this.btnSave = new DMSkin.Controls.DMButton();
             this.btnClose = new DMSkin.Controls.DMButton();
             this.txtTitle = new DMSkin.Controls.DMTextBox();
-            this.eNotebook = new ZetaHtmlEditControl.UI.HtmlEditUserControl();
             this.SuspendLayout();
             // 
             // btnSave
@@ -78,23 +77,11 @@
             this.txtTitle.TabIndex = 5;
             this.txtTitle.WaterText = "";
             // 
-            // eNotebook
-            // 
-            this.eNotebook.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.eNotebook.IsToolbarVisible = true;
-            this.eNotebook.Location = new System.Drawing.Point(0, 50);
-            this.eNotebook.Name = "eNotebook";
-            this.eNotebook.Size = new System.Drawing.Size(708, 382);
-            this.eNotebook.TabIndex = 2;
-            // 
             // NoteBookFrm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(709, 429);
-            this.Controls.Add(this.eNotebook);
             this.Controls.Add(this.txtTitle);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.btnSave);
@@ -109,6 +96,5 @@
         private DMSkin.Controls.DMButton btnSave;
         private DMSkin.Controls.DMButton btnClose;
         private DMSkin.Controls.DMTextBox txtTitle;
-        private ZetaHtmlEditControl.UI.HtmlEditUserControl eNotebook;
     }
 }

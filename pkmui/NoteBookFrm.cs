@@ -10,7 +10,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using ZetaHtmlEditControl.Code.Configuration;
 
 namespace PKM.UI
 {
@@ -20,9 +19,7 @@ namespace PKM.UI
         public NoteBookFrm()
         {
             InitializeComponent();
-            eNotebook.Configure(new HtmlEditControlConfiguration { AllowFontChange = true, AllowEmbeddedImages = true, AllowPrint = true });
-            eNotebook.IsToolbarVisible = true;
-            eNotebook.HtmlEditControl.DocumentText = "";
+           
         }
 
         private void btnSave_Click(object sender, EventArgs e)
@@ -32,8 +29,8 @@ namespace PKM.UI
             string treetype = manForm.treetype;
             if (string.IsNullOrEmpty(txtTitle.Text.Trim()))
                 return;
-            /**/ 
-            string note = eNotebook.HtmlEditControl.DocumentText;
+            /**/
+            string note = "";// eNotebook.HtmlEditControl.DocumentText;
             if (string.IsNullOrEmpty(note))
                 return;
             string sql = string.Format(@"INSERT INTO Sys_Notebook(N_TITLE,N_CONTENT,PARENTID,TREE_TYPE)
