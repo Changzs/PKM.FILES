@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PKM.UI", "pkmui\PKM.UI.csproj", "{21416309-BDBD-49E6-8216-93F53C5FDCF8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ref", "ref", "{E23E8258-77BF-4EA4-903B-E15DDD3DCF4A}"
+	ProjectSection(SolutionItems) = preProject
+		ref\DMSkin.dll = ref\DMSkin.dll
+		ref\System.Data.SQLite.dll = ref\System.Data.SQLite.dll
+		ref\WinHtmlEditor.dll = ref\WinHtmlEditor.dll
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PKM.EntityFramework", "PKM.EntityFramework\PKM.EntityFramework.csproj", "{69D792D8-7908-464B-B66F-5ECDAD502ACE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EntityFramework", "EntityFramework", "{1B387AEA-33ED-4990-A510-BAFD70A66677}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PKM.Common", "PKM.Common\PKM.Common.csproj", "{CE2309A6-1F04-4395-8EF4-56BED700988E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PKM.DAO", "PKM.DAO\PKM.DAO.csproj", "{0E11D5ED-71D9-4F0F-B775-EBD9166B1806}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PKM.BFO", "PKM.BFO\PKM.BFO.csproj", "{D6BF9284-83A0-47C3-B295-4CBCC7098080}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PKM.Model", "PKM.Model\PKM.Model.csproj", "{DA8C0CB5-78C4-49A1-8A71-2E7BC5A5145B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{21416309-BDBD-49E6-8216-93F53C5FDCF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21416309-BDBD-49E6-8216-93F53C5FDCF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21416309-BDBD-49E6-8216-93F53C5FDCF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21416309-BDBD-49E6-8216-93F53C5FDCF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69D792D8-7908-464B-B66F-5ECDAD502ACE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69D792D8-7908-464B-B66F-5ECDAD502ACE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69D792D8-7908-464B-B66F-5ECDAD502ACE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69D792D8-7908-464B-B66F-5ECDAD502ACE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE2309A6-1F04-4395-8EF4-56BED700988E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE2309A6-1F04-4395-8EF4-56BED700988E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE2309A6-1F04-4395-8EF4-56BED700988E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE2309A6-1F04-4395-8EF4-56BED700988E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E11D5ED-71D9-4F0F-B775-EBD9166B1806}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E11D5ED-71D9-4F0F-B775-EBD9166B1806}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E11D5ED-71D9-4F0F-B775-EBD9166B1806}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E11D5ED-71D9-4F0F-B775-EBD9166B1806}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6BF9284-83A0-47C3-B295-4CBCC7098080}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6BF9284-83A0-47C3-B295-4CBCC7098080}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6BF9284-83A0-47C3-B295-4CBCC7098080}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6BF9284-83A0-47C3-B295-4CBCC7098080}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA8C0CB5-78C4-49A1-8A71-2E7BC5A5145B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA8C0CB5-78C4-49A1-8A71-2E7BC5A5145B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA8C0CB5-78C4-49A1-8A71-2E7BC5A5145B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA8C0CB5-78C4-49A1-8A71-2E7BC5A5145B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{69D792D8-7908-464B-B66F-5ECDAD502ACE} = {1B387AEA-33ED-4990-A510-BAFD70A66677}
+		{CE2309A6-1F04-4395-8EF4-56BED700988E} = {1B387AEA-33ED-4990-A510-BAFD70A66677}
+	EndGlobalSection
+EndGlobal
